@@ -7,7 +7,7 @@
 import ChildProps from './ChildProps.vue';
   const Parentdata = "hellow Ahmad parent" 
 </script> -->
-<template>
+<!-- <template>
   <child-props @message-sent="recievemessagefromthechild" />
   <p>Message in parent:{{ receivemessage }}</p>
 </template>
@@ -20,4 +20,4 @@ const receivemessage = ref("");
 const recievemessagefromthechild = (message) => {
   receivemessage.value = message;
 };
-</script>
+</script> -->

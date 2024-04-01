@@ -26,6 +26,4 @@ export default {
     console.log("Value of val is: " + this.val);
   },
 };
-
-
 </script>
